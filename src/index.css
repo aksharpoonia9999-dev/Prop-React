@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Neue Montreal", "Helvetica Neue", Arial, sans-serif;
+
+  --color-accent: #d9b8ff;
+  --color-glass: rgb(255 255 255 / 0.06);
+
+  --radius-section: 20px;
+  --radius-pill: 114.898px;
+
+  --leading-heading: 65px;
+  --leading-body: 25px;
+
+  --text-heading: 50px;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  font-family: var(--font-sans);
+}
